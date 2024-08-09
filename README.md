@@ -4,6 +4,16 @@ Contains a few basic functions that allow for diceware password generation, with
 
 ## Setup
 
+This module requires `git lfs` to be available on your system. It won't work without it.
+
+```bash
+# installs git lfs for all repos handled by your current user
+git lfs install --skip-repo
+
+# installs git lfs globally on your system
+sudo git lfs install --skip-repo --system
+```
+
 Install:
 
 ```bash
