@@ -2,44 +2,18 @@
 
 Contains a few basic functions that allow for diceware password generation, with sensible defaults that work with most websites.
 
+**This is `v0.0.X` software whose API may change at any time, and is not suitable for any serious production use.** It's really just meant for my own reuse in other similar applications.
+
 ## Setup
 
-This module requires `git lfs` to be available on your system. It won't work without it.
+If you're going to use this in your application, you should download `words-complex.txt` and/or `words-simple.txt` depending on your needs. These are managed via `git lfs`.
 
-```bash
-# installs git lfs for all repos handled by your current user
-git lfs install --skip-repo
-
-# installs git lfs globally on your system
-sudo git lfs install --skip-repo --system
-```
-
-Install:
+Obtain it via `go get`:
 
 ```bash
 go get git.cmcode.dev/cmcode/go-dicewarelib
 ```
 
-## Usage
+## Example
 
-```go
-package main
-
-import (
-    "log"
-    "embed"
-
-    dice "git.cmcode.dev/cmcode/go-dicewarelib"
-)
-
-//go:embed words-simple.txt
-//go:embed words-complex.txt
-var content embed.FS
-
-func main() {
-    // load the simple word dictionary into memory
-    words := dice.Words{}
-	*words.Simple, words.SimpleCount = dice.GetWords(content, "words-simple.txt")
-	log.Println(GeneratePassword(&words, 3, " ", 64, 20, false))
-}
-```
+See `./example/main.go` for this full example.

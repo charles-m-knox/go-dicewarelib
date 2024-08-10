@@ -1,1 +1,3 @@
 go-dicewarelib
+example/*.txt
+example/go-dicewarelib-example
