@@ -16,4 +16,4 @@ go get github.com/charles-m-knox/go-dicewarelib
 
 ## Example
 
-See `./example/main.go` for this full example.
+See [`./example/main.go`](./example/main.go) for this full example.
