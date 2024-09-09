@@ -1,3 +1,3 @@
-module git.cmcode.dev/cmcode/go-dicewarelib
+module github.com/charles-m-knox/go-dicewarelib
 
 go 1.22.5

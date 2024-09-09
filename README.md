@@ -11,7 +11,7 @@ If you're going to use this in your application, you should download `words-comp
 Obtain it via `go get`:
 
 ```bash
-go get git.cmcode.dev/cmcode/go-dicewarelib
+go get github.com/charles-m-knox/go-dicewarelib
 ```
 
 ## Example
