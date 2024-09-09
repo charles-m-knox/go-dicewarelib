@@ -2,4 +2,4 @@ module go-dicewarelib-example
 
 go 1.22.5
 
-require git.cmcode.dev/cmcode/go-dicewarelib v0.0.0-20240809232521-e572c8abcf61
+require github.com/charles-m-knox/go-dicewarelib v0.0.0-20240909022926-bd50b03bb8eb

@@ -1,2 +1,2 @@
-git.cmcode.dev/cmcode/go-dicewarelib v0.0.0-20240809232521-e572c8abcf61 h1:gPNH6ZwcG55Fv44cQR97bN3FjeQyOYNgr4j0KaapVXI=
-git.cmcode.dev/cmcode/go-dicewarelib v0.0.0-20240809232521-e572c8abcf61/go.mod h1:5PtcVVVgbZtPieaAr53Ycj5Rk8YIikFxrIsjaidELg8=
+github.com/charles-m-knox/go-dicewarelib v0.0.0-20240909022926-bd50b03bb8eb h1:73tN02nWTXNb2UqlHLOYD1mllCw+iod63ynETRgdKWs=
+github.com/charles-m-knox/go-dicewarelib v0.0.0-20240909022926-bd50b03bb8eb/go.mod h1:/cT0/hTR2YflIqdCSbAW/ewBa3EG4lzOzXdOfbCs+4s=
